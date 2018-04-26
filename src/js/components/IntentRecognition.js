@@ -34,6 +34,7 @@ const mapDispatchToProps = dispatch => {
 };
 
 class IntentRecognitionComponent extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -126,4 +127,5 @@ class IntentRecognitionComponent extends Component {
  * connect react to redux
  */
 const IntentRecognition = connect(mapStateToProps, mapDispatchToProps) (IntentRecognitionComponent);
+
 export default IntentRecognition;

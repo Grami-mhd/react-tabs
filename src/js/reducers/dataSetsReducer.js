@@ -7,6 +7,7 @@ import dataSets from "../../data/dataSets.json";
 const initialState = {
     data: dataSets
 };
+
 export default function getDataSets(state= initialState) {
     return state
 };

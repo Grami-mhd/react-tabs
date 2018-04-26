@@ -21,4 +21,5 @@ const ConnectedList = ({ commands }) => (
     </div>
 );
 const List = connect(mapStateToProps)(ConnectedList);
+
 export default List;
