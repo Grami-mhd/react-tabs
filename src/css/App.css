@@ -1,0 +1,14 @@
+.app {
+  padding: 1rem 10%;
+}
+.logo {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 5rem;
+    height: auto;
+}
+.title {
+    text-align: center;
+    font-size: 3rem;
+}

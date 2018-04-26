@@ -1,0 +1,10 @@
+.command {
+    margin: .5rem;
+    padding: 1rem;
+    font-size: 1.75rem;
+    border-radius: 10rem;
+    text-align: center;
+}
+.commands-list {
+    min-height: 300px;
+}
